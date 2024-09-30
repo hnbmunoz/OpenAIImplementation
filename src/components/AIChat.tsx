@@ -15,7 +15,7 @@ const AIChat = () => {
   const [isTyping, setIsTyping] = useState<boolean>(false);
 
 
-  const Test = "sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA"
+  // const Test = "sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA"
   const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
     "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
   }
@@ -119,7 +119,7 @@ const AIChat = () => {
         apiRequestBody,
         {
           headers: {
-            Authorization: `Bearer ${Test}`,
+            Authorization: `Bearer ${'sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA'}`,
             "Content-Type": "application/json",
           },
         }
