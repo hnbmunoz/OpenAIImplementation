@@ -1,3 +1,5 @@
+sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA (API Key)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
