@@ -13,13 +13,9 @@ const AIChat = () => {
     }
   ]);
   const [isTyping, setIsTyping] = useState<boolean>(false);
-  const client = new OpenAI({
-    apiKey:
-      "sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA",
-      dangerouslyAllowBrowser: true
-  });
 
-  const API_KEY = "sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA"
+
+  const Test = "sk-pKrYT47ApL8X8bKKetBOogZF8nNEppCpNGrKdmm_HuT3BlbkFJt_ahzDCUjxyGGsCjkSykc444hPW-L8rYbues-_WQEA"
   const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
     "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
   }
@@ -123,7 +119,7 @@ const AIChat = () => {
         apiRequestBody,
         {
           headers: {
-            Authorization: `Bearer ${API_KEY}`,
+            Authorization: `Bearer ${Test}`,
             "Content-Type": "application/json",
           },
         }
